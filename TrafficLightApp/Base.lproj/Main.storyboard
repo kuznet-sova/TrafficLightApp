@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J57-JJ-bWR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J57-JJ-bWR">
                                 <rect key="frame" x="132" y="646" width="150" height="60"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -29,7 +29,7 @@
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgS-qk-lqr"/>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uU-td-pgp"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="Rvk-by-pH0">
@@ -78,10 +78,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="greenView" destination="vOR-NS-PaL" id="Ksn-S3-wOY"/>
-                        <outlet property="redView" destination="fTB-yZ-TEJ" id="D9h-tw-E6r"/>
-                        <outlet property="startButton" destination="J57-JJ-bWR" id="QHO-Vf-JrZ"/>
-                        <outlet property="yellowView" destination="rJo-wo-6M2" id="JK2-0n-agA"/>
+                        <outlet property="greenView" destination="vOR-NS-PaL" id="PJx-R0-ONc"/>
+                        <outlet property="redView" destination="fTB-yZ-TEJ" id="0BJ-Pm-YhS"/>
+                        <outlet property="startButton" destination="J57-JJ-bWR" id="DoD-n8-q53"/>
+                        <outlet property="yellowView" destination="rJo-wo-6M2" id="uGq-OE-Z3o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
