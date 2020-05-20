@@ -28,6 +28,9 @@
                                 <state key="normal" title=" START ">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgS-qk-lqr"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="Rvk-by-pH0">
                                 <rect key="frame" x="142" y="30" width="130" height="438"/>
@@ -74,6 +77,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="greenView" destination="vOR-NS-PaL" id="Ksn-S3-wOY"/>
+                        <outlet property="redView" destination="fTB-yZ-TEJ" id="D9h-tw-E6r"/>
+                        <outlet property="startButton" destination="J57-JJ-bWR" id="QHO-Vf-JrZ"/>
+                        <outlet property="yellowView" destination="rJo-wo-6M2" id="JK2-0n-agA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
